@@ -31,8 +31,8 @@ The API will connect to a PostgreSQL database to store the converted JSON data.
 Mandatory properties will be mapped to designated fields, while additional properties will be stored in the additional_info field as a JSON object.
 Scalability and Performance:
 
-The API will be designed to handle large CSV files efficiently, supporting potentially over 50,000 records.
-It will implement data processing optimizations to minimize resource consumption during conversion and database insertion.
+The API is designed to handle large CSV files efficiently, supporting potentially over 50,000 records.
+It implements data processing optimizations to minimize resource consumption during conversion and database insertion.
 
 
 Age Distribution Report:
@@ -48,4 +48,4 @@ Configurability:
 
 
 The API will provide a configuration mechanism, allowing users to define the location of CSV files.
-Environment variables or configuration files will be used for flexibility in specifying file paths and database connection details.
+Configuration file is used for flexibility in specifying file paths and database connection details.
