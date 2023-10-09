@@ -25,12 +25,7 @@ Output in PostgreSQL:-
 
 
 The API will connect to a PostgreSQL database to store the converted JSON data.
-A database table named public.users will be created with the following structure:
-name (concatenation of name.firstName and name.lastName)
-age
-address (complex property stored as JSONB)
-additional_info (remaining properties stored as JSONB)
-id (auto-generated serial primary key)
+
 Mandatory properties will be mapped to designated fields, while additional properties will be stored in the additional_info field as a JSON object.
 Scalability and Performance:
 
