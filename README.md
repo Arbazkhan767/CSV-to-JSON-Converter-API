@@ -15,6 +15,8 @@ Mandatory properties, such as name.firstName, name.lastName, and age, will be sp
 The API will parse the CSV file and convert it into a list of JSON objects.
 Complex properties will be structured accordingly within the JSON objects.
 
+
+
 Database Integration:
 
 ![image](https://github.com/Arbazkhan767/CSV-to-JSON-Converter-API/assets/68524549/1bb0e0c1-e63a-4dd3-87e2-62d80f1d4cf7)
@@ -31,13 +33,16 @@ Scalability and Performance:
 
 The API will be designed to handle large CSV files efficiently, supporting potentially over 50,000 records.
 It will implement data processing optimizations to minimize resource consumption during conversion and database insertion.
+
+
 Age Distribution Report:
 ![image](https://github.com/Arbazkhan767/CSV-to-JSON-Converter-API/assets/68524549/5b47aa58-d66a-43db-887a-720fda8c6f4b)
-
 
 After successfully uploading records to the PostgreSQL database, the API will calculate the age distribution of all users.
 It will generate a detailed report and print it to the console.
 The report will display the age groups and their corresponding percentage distribution, helping stakeholders gain insights into the user demographics.
+
+
 Configurability:
 ![image](https://github.com/Arbazkhan767/CSV-to-JSON-Converter-API/assets/68524549/1491ce85-b52f-4ecf-9695-e9c85defd4ef)
 
