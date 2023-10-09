@@ -5,6 +5,10 @@ In this project, the aim is to build a robust API that converts CSV files into J
 CSV to JSON Conversion:
 ![image](https://github.com/Arbazkhan767/CSV-to-JSON-Converter-API/assets/68524549/2f96b401-77de-4774-b714-7417012852a8)
 
+OUTPUT:-
+![image](https://github.com/Arbazkhan767/CSV-to-JSON-Converter-API/assets/68524549/ca3d95d6-93be-45a4-a3f3-b3c461a498ae)
+
+
 The API will accept CSV files as input, with each row in the CSV representing a distinct object.
 The CSV file will include fields, and complex properties will be denoted using dot (.) separators.
 Mandatory properties, such as name.firstName, name.lastName, and age, will be specified at the beginning of each record.
